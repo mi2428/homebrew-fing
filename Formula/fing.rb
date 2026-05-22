@@ -4,21 +4,21 @@
 class Fing < Formula
   desc "Local IPv4 network scanner with device fingerprints"
   homepage "https://github.com/mi2428/fing"
-  version "0.9.2"
+  version "0.9.3"
   license "MIT"
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/mi2428/fing/releases/download/v0.9.2/fing-v0.9.2-darwin-arm64",
+      url "https://github.com/mi2428/fing/releases/download/v0.9.3/fing-v0.9.3-darwin-arm64",
           using: :nounzip
-      sha256 "31410e0dc2d5cdead4dde0f24268b511ff642a82876ec30675ac932ad82a2eb0"
+      sha256 "9f4c4f63b006614a443efbd716f2fe37c3d02741d8679abd7d39c19aad29ae68"
     end
 
     on_intel do
-      url "https://github.com/mi2428/fing/releases/download/v0.9.2/fing-v0.9.2-darwin-amd64",
+      url "https://github.com/mi2428/fing/releases/download/v0.9.3/fing-v0.9.3-darwin-amd64",
           using: :nounzip
-      sha256 "3858609ae58abcfb10438b354a0eb0a940035a1112d7212abcb2da3933711fda"
+      sha256 "bf77b766b60018001030e9ac6a76adbdc2fe2b94544e145c1a3370a2d2c196dd"
     end
   end
 
